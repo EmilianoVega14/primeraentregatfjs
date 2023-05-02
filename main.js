@@ -1,11 +1,11 @@
-//--------------  CREAR UN ALGORITMO CON UN CONDICIONAL.--------------
-alert("las opciones de entrenamientos son RUNNING O GYM");
+/* //--------------  CREAR UN ALGORITMO CON UN CONDICIONAL.--------------
+alert("Las opciones de entrenamientos son RUNNING ó GYM");
 
 let pregunta = prompt("El dia de hoy entrenaste?");
 
 //-------------- EL USUARIO "SI" ENTRENO --------------
 if (pregunta.toLowerCase() === "si") {
-    alert("felicidades, eso queria escuchar");
+    alert("FELICIDADES!!, eso queria escuchar");
     alert("Que actividad realizaste hoy?");
     let actividad = prompt("ingrese la actividad que realizaste hoy");
 
@@ -38,9 +38,43 @@ if (pregunta.toLowerCase() === "si") {
 else {
     alert("la opcion ingresada no es correcta, intenta de nuevo por favor");
 }
+ */
 
-//-------------- CREAR UN ALGORITMO UTILIZANDO UN CICLO --------------
+// UTILIZAR FUNCIONES PARA REALIZAR ESTAS OPERACIONES
+
+/* let tiempo= parseFloat(prompt("ingresa cuantos tiempo corriste"));
+
+for( km=1; km>=42 ; km+=3){
+    let promedio = km / tiempo;
+    alert(` hoy corriste en un tiempo promedio de ${promedio}`); */
+/* } */
+//me rindo!! ( por ahora)..
+//----------------------------------------------
+
+/* function presentacion(){
+    let nombre= prompt("ingrese su nombre");
+    let apellido= prompt("ingrese su apellido");
+    alert(`Bienvenido ${nombre} ${apellido}`);
+    
+}
+presentacion(); */
+
+/* function kmSemana(){
+    let lunes =parseFloat(prompt("ingrese los km del lunes"));
+    let martes =parseFloat(prompt("ingrese los km del martes"));
+    let miercoles =parseFloat(prompt("ingrese los km del miercoles"));
+    let jueves =parseFloat(prompt("ingrese los km del jueves"));
+    let viernes =parseFloat(prompt("ingrese los km del viernes"));
+    
+ alert(`${lunes} + ${martes} + ${miercoles}+ ${jueves} + ${viernes} + ${sabado} + ${domingo}`);
+} */
+//kmSemana();
 
 
 
-// UTILIZAR FUNCIONES PARA REALIZAR ESTAS OPERACIONES 
+
+
+
+
+
+
